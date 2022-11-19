@@ -5,13 +5,13 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 
 **Alunos:** Gabriel Trindade dos Santos (CP3016XXX) e Renata Santos Rabelo (CP301634X)
 
+**Banco de dados de origem:** Kaggle (https://www.kaggle.com/c/home-credit-default-risk#description)
+
 # Sumário
 
 # Introdução
 
-Muitas pessoas lutam para obter empréstimos devido a históricos de crédito insuficientes ou inexistentes, e a fim de garantir que essa população carente tenha uma experiência de empréstimo positiva, o Home Credit faz uso de uma variedade de dados alternativos - incluindo informações de telecomunicações e transacionais - para prever as habilidades de reembolso de seus clientes. 
-Nesse cenário, a empresa também desafia cientistas e programadores a ajudá-los a desbloquear todo o potencial de seus dados, e garantir que seus clientes capazes de reembolso não sejam rejeitados.
-Pensando nisso, e com base nos dados disponibilizados pela Home Credit na plataforma do Kaggle (https://www.kaggle.com/c/home-credit-default-risk#description), buscamos implementar em núvem, algums modelos de ML (Machine Learning) com o objetivo de prever os clientes que conseguiriam ou não reembolsar o empréstimo.
+Muitas pessoas lutam para obter empréstimos devido a históricos de crédito insuficientes ou inexistentes. A fim de garantir que essa população carente tenha uma experiência de empréstimo positiva, o Home Credit faz uso de uma variedade de dados para prever as habilidades de reembolso de seus clientes. Nesse cenário, a empresa também desafia cientistas e programadores a ajudá-los a desbloquear todo o potencial de seus dados, e garantir que seus clientes capazes de reembolso não sejam rejeitados em uma análise de crédito. Pensando nisso, aderimos ao desafio, e estamos apresentando algums modelos de machine learning para solucionar este desafio.
 
 
 # Descrição dos dados
