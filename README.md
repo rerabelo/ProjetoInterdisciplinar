@@ -5,7 +5,7 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 
 **Alunos:** Renata Santos Rabelo
 
-        Gabriel Trindade dos Santos
+            Gabriel Trindade dos Santos
 
 # Sumário
 
