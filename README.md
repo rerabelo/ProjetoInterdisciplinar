@@ -3,9 +3,7 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 
 **Tema do projeto:** Risco de Inadimplência de Crédito Residencial
 
-**Alunos:** Renata Santos Rabelo
-
-            Gabriel Trindade dos Santos
+**Alunos:** Renata Santos Rabelo (CP301634X) e Gabriel Trindade dos Santos (CP3016XXX)
 
 # Sumário
 
