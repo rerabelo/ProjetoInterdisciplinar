@@ -14,7 +14,6 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 
 Muitas pessoas lutam para obter empréstimos devido a históricos de crédito insuficientes ou inexistentes. A fim de garantir que essa população carente tenha uma experiência de empréstimo positiva, o Home Credit faz uso de uma variedade de dados para prever as habilidades de reembolso de seus clientes. Nesse cenário, a empresa desafia Kagglers a ajudá-los a desbloquear todo o potencial de seus dados, e garantir que clientes capazes de reembolso não sejam rejeitados em uma análise de crédito. Pensando nisso, implementamos em ambiente de nuvem uma solução de aprendizado de máquina com foco na resolução do desafio que pudesse também atender aos requisitos do projeto interdisciplinar proposto no segundo semestre do curso de Especialização em Ciência de Dados do IFSP Campinas. Os requisitos do projeto, bem como detalhes relacionadas ao desenvolvimento da atividade são disponibilizados nesse repositório, e serão apresentados no formato de uma apresentação de 15 mim como requisito parcial para conclusão do semestre.
 
-
 # Descrição dos dados
 
 A lista abaixo descreve cada um dos arquivos fornecidos no desafio:
@@ -33,7 +32,15 @@ A lista abaixo descreve cada um dos arquivos fornecidos no desafio:
 
 **7. installments_payments.csv:** Histórico de reembolso dos créditos anteriormente desembolsados em Crédito Habitação relacionados com os empréstimos da amostra. Há a) uma linha para cada pagamento que foi feito mais b) uma linha para cada pagamento perdido. Uma linha equivale a um pagamento de uma prestação OU a uma prestação correspondente a um pagamento de um crédito de Crédito Habitação anterior relacionado com empréstimos da amostra.
 
-As tabelas suplementares (previous_application, bureau_balance, installments_payments, etc) não podem ser mescladas diretamente à tabela principal, porque os requerentes têm vários números de empréstimos anteriores e diferentes comprimentos de histórico de crédito. Assim, novos parâmetros só poderiam ser obtidos agrupando as tabelas pelo ID e calculando novas métricas sobre contas diferentes e registros de meses diferentes. O problema que encontramos ao tentar explorar essa possibilidade é que algumas contas e registros podem ter um peso maior que outros, e é difícil definir uma regra que possa aplicar pesos a cada registro, por exemplo.
+As tabelas suplementares (previous_application, bureau_balance, installments_payments, etc) não poduram ser mescladas diretamente à tabela principal, porque os requerentes têm vários números de empréstimos anteriores e diferentes comprimentos de histórico de crédito. Assim, novos parâmetros só poderiam ser obtidos agrupando as tabelas pelas IDs (SK_ID_CURR, SK_ID_PREV e SK_ID_BUREAU) e calculando novas métricas sobre contas diferentes e registros de meses diferentes. O problema que encontramos ao tentar explorar essa possibilidade é que algumas contas e registros podem ter um peso maior que outros, e é difícil definir uma regra que possa aplicar pesos a cada registro, por exemplo. Abaixo descrevemos as IDs que conectam os dataframes fornecidos pela Home Credit.
+
+**SK_ID_CURR** está conectando os dataframes application_train|test com bureau, previous_application e também com dataframes POS_CASH_balance, installments_payments e credit_card_balance. 
+
+**SK_ID_PREV** conecta os dataframes previous_application com POS_CASH_balance, installments_payments e credit_card_balance. 
+
+**SK_ID_BUREAU** conecta o dataframe bureau com o dataframe bureau_balance.
+
+
 
 # Workflow
 
