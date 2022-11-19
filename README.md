@@ -1,7 +1,8 @@
 # Projeto Interdisciplinar - Risco de Inadimplência de Crédito Residencial
-O projeto descrito nesse repositório é requisito parcial para conclusão de atividades do segundo semestre do curso de Especialização em Ciência de Dados do IFSP Campinas. A descrição da atividade e detalhes relacionados à construção e implementação do projeto são disponibilizadas a seguir. 
+O projeto descrito nesse repositório é requisito parcial para conclusão de atividades do segundo semestre do curso de Especialização em Ciência de Dados do IFSP Campinas. 
 
 **Tema do projeto:** Risco de Inadimplência de Crédito Residencial
+
 **Alunos:** Renata Santos Rabelo
         Gabriel Trindade dos Santos
 
