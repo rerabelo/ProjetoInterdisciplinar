@@ -1,5 +1,5 @@
 # Projeto Interdisciplinar
-O projeto descrito nesse repositório é requisito parcial para conclusão de atividades do segundo semestre do curso de Especialização em Ciência de Dados do IFSP Campinas. A proposta de atividade preve o desenvolvimento de uma solução de aprendizado de máquina cujo treinamento e processamento deverão ser realizados em ambiente de nuvem, com processamento distribuído, explorando o uso de paralelismo.
+O projeto descrito nesse repositório é requisito parcial para conclusão de atividades do segundo semestre do curso de Especialização em Ciência de Dados do IFSP Campinas. A proposta de atividade prevê o desenvolvimento de uma solução de aprendizado de máquina cujo treinamento e processamento deverão ser realizados em ambiente de nuvem, com processamento distribuído, explorando o uso de paralelismo.
 
 **Tema do projeto:** Risco de Inadimplência de Crédito Residencial
 
@@ -12,7 +12,7 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 
 # Introdução
 
-Muitas pessoas lutam para obter empréstimos devido a históricos de crédito insuficientes ou inexistentes. A fim de garantir que essa população carente tenha uma experiência de empréstimo positiva, o Home Credit faz uso de uma variedade de dados para prever as habilidades de reembolso de seus clientes. Nesse cenário, a empresa também desafia cientistas e programadores a ajudá-los a desbloquear todo o potencial de seus dados, e garantir que seus clientes capazes de reembolso não sejam rejeitados em uma análise de crédito. Pensando nisso, aderimos ao desafio, e estamos apresentando algums modelos de machine learning para solucionar este desafio.
+Muitas pessoas lutam para obter empréstimos devido a históricos de crédito insuficientes ou inexistentes. A fim de garantir que essa população carente tenha uma experiência de empréstimo positiva, o Home Credit faz uso de uma variedade de dados para prever as habilidades de reembolso de seus clientes. Nesse cenário, a empresa também desafia Kagglers a ajudá-los a desbloquear todo o potencial de seus dados, e garantir que seus clientes capazes de reembolso não sejam rejeitados em uma análise de crédito. Pensando nisso, implementamos em ambiente de nuvem uma solução de aprendizado de máquina com foco na resolução desse desafio que pudesse atender aos requisitos do projeto interdisciplinar proposto no segundo semestre do curso de Especialização em Ciência de Dados do IFSP Campinas.
 
 
 # Descrição dos dados
