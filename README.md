@@ -1,11 +1,12 @@
 # Projeto Interdisciplinar
-O projeto descrito nesse repositório é requisito parcial para conclusão de atividades do segundo semestre do curso de Especialização em Ciência de Dados do IFSP Campinas. 
+O projeto descrito nesse repositório é requisito parcial para conclusão de atividades do segundo semestre do curso de Especialização em Ciência de Dados do IFSP Campinas. A proposta de atividade preve o desenvolvimento de uma solução de aprendizado de máquina cujo treinamento e processamento deverão ser realizados em ambiente de nuvem, com processamento distribuído, explorando o uso de paralelismo.
 
 **Tema do projeto:** Risco de Inadimplência de Crédito Residencial
 
 **Alunos:** Gabriel Trindade dos Santos (CP3016XXX) e Renata Santos Rabelo (CP301634X)
 
 **Banco de dados de origem:** Kaggle (https://www.kaggle.com/c/home-credit-default-risk#description)
+
 
 # Sumário
 
