@@ -1,5 +1,5 @@
 # Projeto Interdisciplinar
-O projeto descrito nesse repositório teve como objetivo prever a capacidade de um dado requerente reembolsar (ou não) um empréstimo. A análise dos dados e a construção dos modelos de predição foram realizadas com base no histórico de solicitação de empréstimo fornecido no desafio Home Credit Default Risk disponível no Kaggle. 
+O projeto descrito nesse repositório é requisito do projeto interdisciplinar apresentado no segundo semestre do curso de Especialização em Ciência de Dados do IFSP Campinas. A atividade desenvolvida nesse repositório teve como como objetivo a construção modelos de machine learning implmentados em nuvem para prever a capacidade de um dado requerente reembolsar (ou não) um empréstimo, e portanto, tem aplicação na análise de risco de inadimplência de crédito. A construção dos modelos de machine learning apresentados nesse repositório foi realizada com base no histórico de solicitação de empréstimo fornecido pela Home Credit em um desafio dispnibilizado no Kaggle (https://www.kaggle.com/c/home-credit-default-risk#description). 
 
 # Sumário
 
@@ -7,7 +7,7 @@ O projeto descrito nesse repositório teve como objetivo prever a capacidade de 
 
 Muitas pessoas lutam para obter empréstimos devido a históricos de crédito insuficientes ou inexistentes, e a fim de garantir que essa população carente tenha uma experiência de empréstimo positiva, o Home Credit faz uso de uma variedade de dados alternativos - incluindo informações de telecomunicações e transacionais - para prever as habilidades de reembolso de seus clientes. 
 Nesse cenário, a empresa também desafia cientistas e programadores a ajudá-los a desbloquear todo o potencial de seus dados, e garantir que seus clientes capazes de reembolso não sejam rejeitados.
-Pensando nisso, e com base nos dados disponibilizados pela Home Credit na plataforma do Kaggle (https://www.kaggle.com/c/home-credit-default-risk#description), buscamos implementar em núvem, algums modelos de ML (Machine Learning) na caontrução de modelos de classificação com objetivo de prever os clientes que conseguiriam ou não reembolsar o emprestimo.
+Pensando nisso, e com base nos dados disponibilizados pela Home Credit, buscamos implementar em núvem, algums modelos de ML (Machine Learning) na caontrução de modelos de classificação com objetivo de prever os clientes que conseguiriam ou não reembolsar o emprestimo.
 
 
 # Descrição dos dados
