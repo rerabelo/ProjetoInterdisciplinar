@@ -19,7 +19,7 @@ Muitas pessoas lutam para obter empréstimos devido a históricos de crédito in
 
 A lista abaixo descreve cada um dos arquivos fornecidos no desafio:
 
-**1. application_{train|test}.csv:** Esta é a tabela principal do banco de dados, e está dividida em dois arquivos, um para Train (com TARGET) e um para Test (sem TARGET). Cada linha da tabela representa um empréstimo. A tabela complementar **Home_credit_columns descriptions.csv** traz a descrição de cada uma das colunas presentes na tabela principal. Nota: O TARGET = 0 significa que o empréstimo foi reembolsado, enquanto TARGET = 1 significa que o empréstimo não foi reembolsado.
+**1. application_{train|test}.csv:** Esta é a tabela principal do banco de dados, e está dividida em dois arquivos, um para Train (com TARGET) e um para Test (sem TARGET). Cada linha da tabela representa um empréstimo. A tabela complementar **Home_credit_columns descriptions.csv** traz a descrição de cada uma das colunas presentes na tabela principal. *Nota: TARGET = 0 significa que o empréstimo foi reembolsado e TARGET = 1 significa que o empréstimo não foi reembolsado*.
 
 **2. bureau.csv:** Todos os créditos anteriores do cliente fornecidos por outras instituições financeiras que foram reportados ao Credit Bureau (para clientes que possuem empréstimo na amostra). Para cada empréstimo na amostra, há tantas linhas quanto o número de créditos que o cliente tinha no Credit Bureau antes da data da solicitação.
 
