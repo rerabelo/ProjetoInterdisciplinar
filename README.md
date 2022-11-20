@@ -15,7 +15,10 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 * [Descrição dos dados](#descri)
 * [Workflow](#work)
 * [Infraestrutura](#infra)
-* [Descrição dos notebboks](#note)
+* [Descrição dos notebooks](#note)
+* [EDA](##EDA)
+* [Machine Leaning](##ML)
+
 
 # Introdução <a id='intro'></a> 
 
