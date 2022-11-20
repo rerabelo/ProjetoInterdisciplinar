@@ -57,13 +57,10 @@ As tabelas suplementares (previous_application, bureau_balance, installments_pay
 
 O diagrama abaixo fornece uma visão geral do fluxo de trabalho implementado.
 
-{
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "![title](images/workflow.png)"
-   ]
-  }
+<div align-"center">
+<img src="https://user-images.githubusercontent.com/70875940/202924175-25cefb39-e77e-4065-8278-1c143a99135c.png", width = "400 px"/>
+</div>
+
 
 # Infraestrutura <a id='infra'></a>
 
