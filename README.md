@@ -83,7 +83,7 @@ Nesse projeto foram criados três buckets no *S3*: um bucket para dados de orige
 </div>
 
 
-*Bucket criado para o armazenamento de outputs dos modelos de machine learning (Exemplo respectivo ao XGBoost):*
+*Bucket criado para o armazenamento de outputs dos modelos de machine learning:*
 <div align-"center">
 <img width="752" alt="OutputData" src="https://user-images.githubusercontent.com/70875940/202925581-88101d80-4d63-479c-9c9a-531614e0253c.png">
 </div>
