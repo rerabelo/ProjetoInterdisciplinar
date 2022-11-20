@@ -73,6 +73,8 @@ O diagrama abaixo fornece uma visão geral do fluxo de trabalho implementado.
 
 ## EDA (Exploratory Data Analysis) <a id='EDA'></a>
 
+A análise exploratória, bem como as discussões pertinentes a construção dessa análise e seu impacto na tomada de decisões para a criação dos modelos de machine learning são apresentados no notebook [*EDA*](./Requisitos%20do%20projeto)
+
 ## Machine learning <a id='ML'></a>
 
 # Conclusão <a id='conclu'></a>
