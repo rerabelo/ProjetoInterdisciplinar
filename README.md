@@ -102,6 +102,8 @@ A análise exploratória, bem como as discussões pertinentes a construção des
 
 ## Machine learning <a id='ML'></a>
 
+Os modelos de machine learning são apresentados e discutidos no notebook [EDA - Exploratory Data Analysis] (./Notebooks/3ML_Trabalho_Mult_v3.ipynb)
+
 # Conclusão <a id='conclu'></a>
 
 # Perspectivas Futuras <a id='Perspec'></a>
