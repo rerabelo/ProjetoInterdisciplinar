@@ -17,7 +17,7 @@ Muitas pessoas lutam para obter empréstimos devido a históricos de crédito in
 
 # Descrição dos dados
 
-A lista abaixo descreve cada um dos arquivos fornecidos no desafio:
+A lista abaixo descreve cada um dos arquivos do desafio:
 
 **1. application_{train|test}.csv:** Esta é a tabela principal do banco de dados, e está dividida em dois arquivos, um para Train (com TARGET) e um para Test (sem TARGET). Cada linha da tabela representa um empréstimo. A tabela complementar **Home_credit_columns descriptions.csv** traz a descrição de cada uma das colunas presentes na tabela principal. ***Nota:** TARGET = 0 => o empréstimo foi reembolsado, TARGET = 1 => o empréstimo não foi reembolsado*.
 
