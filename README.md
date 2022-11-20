@@ -61,8 +61,10 @@ O diagrama abaixo fornece uma visão geral do fluxo de trabalho implementado.
 </div>
 
 Para o armazenamento e processamento dos dados foram utilizados os seguintes serviços da AWS:
-• S3: Utilizado para o armazenamento dos dados de origem dos dados processados.
-• SageMaker: Utilizado para criação de um notebook para realização da análise exploratória dos dados (EDA - Exploratory Data Analysis) e para a criação de outro notebook onde foram criados os modelos de machine learning empregados na construção da solução do desafio.
+
+• **S3:** Utilizado para o armazenamento dos dados de origem dos dados processados.
+
+• **SageMaker:** Utilizado para criação de um notebook para realização da análise exploratória dos dados (EDA - Exploratory Data Analysis) e para a criação de outro notebook onde foram criados os modelos de machine learning empregados na construção da solução do desafio.
 
 # Infraestrutura <a id='infra'></a>
 
