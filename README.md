@@ -11,7 +11,7 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 
 # Sumário
 
-[Introdução](#intro)\n",
+[Introdução](#intro)
 
 # Introdução <a id='intro'></a> 
 
