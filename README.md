@@ -12,9 +12,9 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 # Sumário
 
 * [Introdução](#intro)
-* [Descrição dos dados] (#descri)
-* [Workflow] (#work)
-* [Infraestrutura] (#infra)
+* [Descrição dos dados](#descri)
+* [Workflow](#work)
+* [Infraestrutura](#infra)
 
 # Introdução <a id='intro'></a> 
 
