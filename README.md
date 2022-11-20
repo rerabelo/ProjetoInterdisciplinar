@@ -69,17 +69,20 @@ Para o armazenamento e processamento dos dados foram utilizados os seguintes ser
 # Infraestrutura <a id='infra'></a>
 
 Nesse projeto foram criados três buckets no *S3*: um bucket para dados de origem, um bucket para dados processados (que nesse caso, representam os dados obtidos após a realização da análise exploratória, e um bucket para comportar os outputs gerados a partir dos modelos de machine learning. Abaixo apresentamos alguns exemplos dos dados armazenados em cada um dos buckets descritos.
-\n
+
+
 *Bucket criado para o armazenamento dos dados de origem:*
 <div align-"center">
 <img width="851" alt="RawData" src="https://user-images.githubusercontent.com/70875940/202925320-cc1ecd9c-190b-4569-b07c-9298cb3b2e3a.png">
 </div>
-\n
+
+
 *Bucket criado para o armazenamento de dados processados:*
 <div align-"center">
 <img width="755" alt="ProcessedData" src="https://user-images.githubusercontent.com/70875940/202925427-750ad5c2-3d80-4430-9774-99c4f2f3c062.png">
 </div>
-\n
+
+
 *Bucket criado para o armazenamento de outputs dos modelos de machine learning (Exemplo respectivo ao XGBoost):*
 <div align-"center">
 <img width="752" alt="OutputData" src="https://user-images.githubusercontent.com/70875940/202925581-88101d80-4d63-479c-9c9a-531614e0253c.png">
