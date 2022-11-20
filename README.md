@@ -98,7 +98,7 @@ Além da criação dos buckets, configuramos a instancia para a criação dos no
 
 ## EDA (Exploratory Data Analysis) <a id='EDA'></a>
 
-A análise exploratória, bem como as discussões pertinentes a construção dessa análise e seu impacto na tomada de decisões para a criação dos modelos de machine learning são apresentados no notebook [*EDA*](./Requisitos%20do%20projeto)
+A análise exploratória, bem como as discussões pertinentes a construção dessa análise e seu impacto na tomada de decisões para a criação dos modelos de machine learning são apresentados no notebook [*EDA*](./Notebooks/EDA_credit_2022.ipynb) 
 
 ## Machine learning <a id='ML'></a>
 
