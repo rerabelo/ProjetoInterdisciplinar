@@ -15,6 +15,7 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 * [Descrição dos dados](#descri)
 * [Workflow](#work)
 * [Infraestrutura](#infra)
+* [Descrição dos notebboks](#note)
 
 # Introdução <a id='intro'></a> 
 
@@ -50,3 +51,9 @@ As tabelas suplementares (previous_application, bureau_balance, installments_pay
 # Workflow <a id='work'></a>
 
 # Infraestrutura <a id='infra'></a>
+
+# Descrição dos notebboks <a id='note'></a>
+
+## EDA <a id='EDA'></a>
+
+## Machine learning <a id='ML'></a>
