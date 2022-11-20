@@ -90,7 +90,7 @@ Exemplo 3: Bucket criado para o armazenamento de outputs dos modelos de machine 
 
 Além da criação dos buckets, configuramos a instancia para a criação dos notebooks, tal como descrito abaixo:
 <div align-"center">
-<img width="752" alt="OutputData" src="https://user-images.githubusercontent.com/70875940/202925581-88101d80-4d63-479c-9c9a-531614e0253c.png">
+<img width="739" alt="Instancia" src="https://user-images.githubusercontent.com/70875940/202925937-55e7e0fe-2561-422c-9eba-3abfa849e1be.png">
 </div>
 
 # Descrição dos notebooks <a id='note'></a>
