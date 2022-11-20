@@ -16,8 +16,10 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 * [Workflow](#work)
 * [Infraestrutura](#infra)
 * [Descrição dos notebooks](#note)
-* [EDA](##EDA)
+* [EDA (Exploratory Data Analysis)](##EDA)
 * [Machine Leaning](##ML)
+* [Conclusão](#Conclu)
+* [Perspectivas Futuras](#Perspec)
 
 
 # Introdução <a id='intro'></a> 
@@ -55,8 +57,14 @@ As tabelas suplementares (previous_application, bureau_balance, installments_pay
 
 # Infraestrutura <a id='infra'></a>
 
-# Descrição dos notebboks <a id='note'></a>
+# Descrição dos notebooks <a id='note'></a>
 
-## EDA <a id='EDA'></a>
+## EDA (Exploratory Data Analysis) <a id='EDA'></a>
 
 ## Machine learning <a id='ML'></a>
+
+# Conclusão <a id='conclu'></a>
+
+# Perspectivas Futuras <a id='Perspec'></a>
+
+
