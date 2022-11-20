@@ -11,13 +11,16 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 
 # Sumário
 
-[Introdução](#intro)
+* [Introdução](#intro)
+* [Descrição dos dados] (#descri)
+* [Workflow] (#work)
+* [Infraestrutura] (#infra)
 
 # Introdução <a id='intro'></a> 
 
 Muitas pessoas lutam para obter empréstimos devido a históricos de crédito insuficientes ou inexistentes. A fim de garantir que essa população carente tenha uma experiência de empréstimo positiva, o Home Credit faz uso de uma variedade de dados para prever as habilidades de reembolso de seus clientes. Nesse cenário, a empresa desafia Kagglers a ajudá-los a desbloquear todo o potencial de seus dados, e garantir que clientes capazes de reembolso não sejam rejeitados em uma análise de crédito. Pensando nisso, implementamos em ambiente de nuvem uma solução de aprendizado de máquina com foco na resolução do desafio que pudesse também atender aos requisitos do projeto interdisciplinar proposto no segundo semestre do curso de Especialização em Ciência de Dados do IFSP Campinas. Os requisitos do projeto, bem como detalhes relacionadas ao desenvolvimento da atividade são disponibilizados nesse repositório, e serão apresentados no formato de uma apresentação de 15 mim como requisito parcial para conclusão do semestre.
 
-# Descrição dos dados
+# Descrição dos dados <a id='descri'></a> 
 
 A lista abaixo descreve cada um dos arquivos do desafio:
 
@@ -44,7 +47,6 @@ As tabelas suplementares (previous_application, bureau_balance, installments_pay
 **SK_ID_BUREAU** conecta o dataframe bureau com o dataframe bureau_balance.
 
 
+# Workflow <a id='work'></a>
 
-# Workflow
-
-# Infraestrutura
+# Infraestrutura <a id='infra'></a>
