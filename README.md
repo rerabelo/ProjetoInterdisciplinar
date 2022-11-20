@@ -7,7 +7,7 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 
 **Banco de dados de origem:** Kaggle (https://www.kaggle.com/c/home-credit-default-risk#description)
 
-**Requisitos do projeto:** [Lista de requisitos](./Requisitos%20do%20projeto)
+**Requisitos do projeto:** [Descrição dos requisitos](./Requisitos%20do%20projeto)
 
 # Sumário
 
