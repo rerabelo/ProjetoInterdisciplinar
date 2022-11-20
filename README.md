@@ -3,7 +3,7 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 
 **Tema do projeto:** Risco de Inadimplência de Crédito Residencial
 
-**Alunos:** Gabriel Trindade dos Santos (CP3016XXX) e Renata Santos Rabelo (CP301634X)
+**Alunos:** Gabriel Trindade dos Santos (CP3016749) e Renata Santos Rabelo (CP301634X)
 
 **Banco de dados de origem:** Kaggle (https://www.kaggle.com/c/home-credit-default-risk#description)
 
