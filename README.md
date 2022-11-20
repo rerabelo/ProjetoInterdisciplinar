@@ -55,7 +55,7 @@ As tabelas suplementares (previous_application, bureau_balance, installments_pay
 
 # Workflow <a id='work'></a>
 
-O diagrama abaixo fornece uma visão geral do fluxo de trabalho implementado.
+O diagrama abaixo fornece uma visão geral das ferramentas e da ordem em que foram realizadas operações na AWS.
 <div align-"center">
 <img src="https://user-images.githubusercontent.com/70875940/202924175-25cefb39-e77e-4065-8278-1c143a99135c.png", width = "500 px"/>
 </div>
@@ -68,7 +68,19 @@ Para o armazenamento e processamento dos dados foram utilizados os seguintes ser
 
 # Infraestrutura <a id='infra'></a>
 
+Nesse projeto foram criados três buckets no *S3*: um bucket para dados de origem, um bucket para dados processados (que nesse caso, representam os dados obtidos após a realização da análise exploratória, e um bucket para comportar os outputs gerados a partir dos modelos de machine learning. Abaixo apresentamos alguns exemplos dos dados armazenados em cada um dos buckets descritos.
 
+<div align-"center">
+<img src="https://user-images.githubusercontent.com/70875940/202924175-25cefb39-e77e-4065-8278-1c143a99135c.png", width = "500 px"/>
+</div>
+
+<div align-"center">
+<img src="https://user-images.githubusercontent.com/70875940/202924175-25cefb39-e77e-4065-8278-1c143a99135c.png", width = "500 px"/>
+</div>
+
+<div align-"center">
+<img src="https://user-images.githubusercontent.com/70875940/202924175-25cefb39-e77e-4065-8278-1c143a99135c.png", width = "500 px"/>
+</div>
 
 # Descrição dos notebooks <a id='note'></a>
 
