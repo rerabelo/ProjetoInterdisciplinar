@@ -55,7 +55,19 @@ As tabelas suplementares (previous_application, bureau_balance, installments_pay
 
 # Workflow <a id='work'></a>
 
+O diagrama abaixo fornece uma visão geral do fluxo de trabalho implementado.
+
+{
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "![title](images/workflow.png)"
+   ]
+  }
+
 # Infraestrutura <a id='infra'></a>
+
+
 
 # Descrição dos notebooks <a id='note'></a>
 
