@@ -15,9 +15,10 @@ O projeto descrito nesse repositório é requisito parcial para conclusão de at
 * [Descrição dos dados](#descri)
 * [Workflow](#work)
 * [Infraestrutura](#infra)
-* [Descrição dos notebooks](#note)
+* [Descrição dos notebooks - SETUP](#note)
 * [EDA (Exploratory Data Analysis)](##EDA)
 * [Machine Leaning](##ML)
+* [EndPoint e CleanUP](##End)
 * [Conclusão](#Conclu)
 * [Perspectivas Futuras](#Perspec)
 
@@ -94,7 +95,7 @@ Além da criação dos buckets, configuramos a instancia para a criação dos no
 <img width="755" alt="Instancia" src="https://user-images.githubusercontent.com/70875940/202925937-55e7e0fe-2561-422c-9eba-3abfa849e1be.png">
 </div>
 
-# Descrição dos notebooks <a id='note'></a>
+# Descrição dos notebooks - SETUP <a id='note'></a>
 
 ## EDA (Exploratory Data Analysis) <a id='EDA'></a>
 
@@ -102,10 +103,25 @@ A análise exploratória, bem como as discussões pertinentes a construção des
 
 ## Machine learning <a id='ML'></a>
 
-Os modelos de machine learning são apresentados e discutidos no notebook [ML - Machine Learning](./Notebooks/3ML_Trabalho_Mult_v3.ipynb)
+Os modelos de machine learning são apresentados e discutidos no notebook [ML - Machine Learning](./Notebooks/3ML_Trabalho_Mult_v3.ipynb) 
+O notebook do Pycaret usado como base na escolha dos modelos se encontra dentro da pasta Notebooks. 
+
+## EndPoint e Clean Up <a id='End'></a>
+
+Estes procedimentos são importantes para encerrar as instancias dentro da nuvem para evitar custos de processamento remanescente dentro da plataforma. 
+toda elaboração esta no scritp dentro do notebook [ML - Machine Learning](./Notebooks/3ML_Trabalho_Mult_v3.ipynb) 
 
 # Conclusão <a id='conclu'></a>
 
+Com os resultados podemos concluir que a base de um bom Machine Learning é o uso de um dataframe muito bem limpo e analisado, pois grande parte dos problemas estão atrelados as condições do preenchimento do data frame, que podem ir desde um desbalanceamento até ao preenchimento de cada célula ( células vazias, células com valores diferentes entre treino e teste, escrita errada em alguma célula ou etiqueta de uma mesma feature. 
+O melhor resultado encontrado foi do XGBoost, está modelagem é bastante usada para sistemas desbalanceados, que foi o nosso caso. Os resultados das aprendizagens podem ser melhorados a partir de estratégias de balanceamento do data frame, como selecionar uma feature no qual sua comparação com TARGET seja balanceada, assim devido ao grande tamanho do dataframe, seria possível selecionar o tamanho do conjunto que esteja balanceado e então fazer o aprendizado neste grupo.  
+No Xgboost foi realizado um deploy e depois um endpoint para encerrar o processamento e assim o consumo na plataforma. 
+O uso de computação em nuvem se mostrou satisfatório no quesito de permitir rodar diferentes modelagens ao mesmo tempo em containers separados, permitindo uma computação escalável de acordo com a necessidade computacional de cada modelo. No entanto, o SAGEMAKER da aws não compreende de forma fácil  praticamente todos os tipos de ML, alguns como por exemplo o Random Forest entre outros necessitam da elaboração de scripts mais completos, normalmente desenvolvidos pelos “computeiros”. Isso permite concluir que não é impossível rodar diferentes ML dentro aws, apenas que é necessário compreender melhor a elaboração de scripts mais complexos. 
+Por outro lado, o Pycaret é um recurso muito interessante para cientistas de dados que não são desenvolvedores experientes, é possível extrair muita informação com apenas um dataset e um alvo. Contudo, fica claro que o uso desta ferramenta é indicado basicamente como um auxilio inicial para indicar as possibilidades que se pode atacar e desenvolver melhores preditores.
+
+
 # Perspectivas Futuras <a id='Perspec'></a>
 
+Como perspectiva futura pretendemos aprofundar duas questões, a primeira esta relacionada a estratégias de balanceamento de um dataset tão desbalanceado. Uma alternativa será pela seleção de dados que estão balanceados em alguma feature, isto provavelmente irá diminuir muito o conjunto de dados, porém o dataset deste trabalho é relativamente grande, logo o resultado por dar um conjunto bom para treinar. Outra alternativa seria de remover aleatória mente os dados da classe maior (zero) até ficar do mesmo tamanho da classe menor (um). Ainda, poderia fazer um script para pegar a classe maior (zero) e dividir tantas vezes até todas divisões ficarem do tamanho da classe menor (um) e então treinar todas divisões com o mesmo conjunto da classe menor (um), por fim fazer um laço que pegue o conjunto da  classe menor (um) e insira junto da “n” divisão da classe maior (zero) e então para  cada novo “n” conjunto (agora  balanceados) faça um ML, ao final, printar a média das métricas do treinamento ( acurácia, F-1, ROC) e plotar uma curva do resultado individual de cada novo conjunto. 
+A segunda questão envolve em aprimorar os recursos computacionais para rodar modelos de aprendizagem que não são convencionais ainda na plataforma do SAGEMAKER.  Esta questão é importante porque envolve em utilizar diferentes instâncias (cada uma ao seu valor e poder computacional) para resolver os problemas de Machine learning na nuvem de forma mais eficiente. 
 
