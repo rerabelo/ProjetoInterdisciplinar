@@ -103,7 +103,7 @@ A análise exploratória, bem como as discussões pertinentes a construção des
 
 ## Machine learning <a id='ML'></a>
 
-Os modelos de machine learning são apresentados e discutidos no notebook [ML - Machine Learning](./Notebooks/3ML_Trabalho_Mult_v3.ipynb) 
+Os modelos de machine learning são apresentados e discutidos no notebook [ML - Machine Learning](./Notebooks/3ML_Trabalho_Mult_v3_new.ipynb) 
 O notebook do Pycaret usado como base na escolha dos modelos se encontra dentro da pasta Notebooks. 
 
 ## EndPoint e Clean Up <a id='End'></a>
