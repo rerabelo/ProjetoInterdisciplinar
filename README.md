@@ -65,7 +65,7 @@ Para o armazenamento e processamento dos dados foram utilizados os seguintes ser
 
 • **Amazon S3:** Utilizado para o armazenamento dos dados de origem dos dados processados.
 
-• **SageMaker:** Utilizado para criação de um notebook para realização da análise exploratória dos dados (EDA - Exploratory Data Analysis) e para a criação de outro notebook onde foram criados os modelos de machine learning empregados na construção da solução do desafio. Ambos notebooks foram criados utilizando configurações padrão sugeridas pela Amazon. A instancia utilizada para construção do projeto foi a ml.m4.xlarge (4 vCPUs e 16GiB RAM).
+• **SageMaker:** Utilizado para criação de um notebook para realização da análise exploratória dos dados (EDA - Exploratory Data Analysis) e para a criação do notebook onde foram implementados os modelos de machine learning empregados na construção da solução do desafio. Ambos notebooks foram criados utilizando configurações padrão sugeridas pela Amazon, e a instancia utilizada para construção do projeto foi a ml.m4.xlarge (4 vCPUs e 16GiB RAM).
 
 # Infraestrutura <a id='infra'></a>
 
