@@ -102,6 +102,17 @@ Além da criação dos buckets, configuramos a instancia para a criação dos no
 A análise exploratória, bem como as discussões pertinentes a construção dessa análise e seu impacto na tomada de decisões para a criação dos modelos de machine learning são apresentados no notebook [EDA - Exploratory Data Analysis](./Notebooks/EDA_credit_2022.ipynb) 
 
 ## Machine learning <a id='ML'></a>
+A escolha dos modelos ML escolhidos foram com base no resultado prévio de desempenho de diferentes tipos de ML calculado usando o Pycaret e na disponibilidade da biblioteca SAGEMAKER da AWS.
+Dado ao desbalanceamento de nosso dataset (92% e 8%) nosso baseline estava em 0,92. Nessas condições, uma métrica aceitável para mensurar o desempenho de um dataset tão desbalanceado é a curva ROC e o valor AUC. 
+Utilizando o valor AUC encontrado no Pycaret foram selecionados 2 modelos, o melhor resultado foi o Regressão Logistica, um modelo de regressão linear binária. Dentre os 5 melhores estava o Random Forest, um modelo que utilizada arvore de decisão aleatória e usa método de ensemble. Este foi o segundo modelo escolhido. 
+O terceiro modelo de Machine Learning escolhido foi o XGBoost, que vem de eX*treme Gradient Boosting, baseada em arvore de decisão com Gradient Boosting. Este modelo foi escolhido por dois motivos. O primeiro, porque foi um modelo que não foi abordado em aula. Em segundo, este modelo é bem estabelecido dentro da plataforma da AWS, compatível com a biblioteca do Sage Maker. É criado um container onde o modelo será rodado em outra instancia diferente do notebook raiz, isto permite um ganho computacional e uma programação paralela e escalável.  
+
+Tuning dos modelos
+
+O modelo de regressão logística não é usualmente tunado, visto que quase não tem onde mexer em hiperparametros. 
+O Randon forest foi tunado usando a GridSV que faz uma validação cruzada, é uma tunagem pesada, precisa de recurso computacional para rodar. 
+ O XGboost foi Tunado dentro do script com  o SAGEMAKER
+
 
 Os modelos de machine learning são apresentados e discutidos no notebook [ML - Machine Learning](./Notebooks/3ML_Trabalho_Mult_v3_new.ipynb) 
 O notebook do Pycaret usado como base na escolha dos modelos se encontra dentro da pasta Notebooks. 
@@ -112,6 +123,8 @@ Estes procedimentos são importantes para encerrar as instancias dentro da nuvem
 toda elaboração esta no scritp dentro do notebook [ML - Machine Learning](./Notebooks/3ML_Trabalho_Mult_v3.ipynb) 
 
 # Conclusão <a id='conclu'></a>
+Com os resultados podemos concluir que a base de um bom Machine Learning é o uso de um  dataframe limpo e analisado, pois grande parte dos problemas estão atrelados as condições do data frame, que podem ir desde um desbalanceamento até ao preenchimento de cada célula ( células vaizias, células com valores diferentes entre treino e teste, escrita errada em alguma célula ou etiqueta de uma mesma feature. 
+
 
 Com os resultados podemos concluir que a base de um bom Machine Learning é o uso de um dataframe muito bem limpo e analisado, pois grande parte dos problemas estão atrelados as condições do preenchimento do data frame, que podem ir desde um desbalanceamento até ao preenchimento de cada célula ( células vazias, células com valores diferentes entre treino e teste, escrita errada em alguma célula ou etiqueta de uma mesma feature. 
 O melhor resultado encontrado foi do XGBoost, está modelagem é bastante usada para sistemas desbalanceados, que foi o nosso caso. Os resultados das aprendizagens podem ser melhorados a partir de estratégias de balanceamento do data frame, como selecionar uma feature no qual sua comparação com TARGET seja balanceada, assim devido ao grande tamanho do dataframe, seria possível selecionar o tamanho do conjunto que esteja balanceado e então fazer o aprendizado neste grupo.  
@@ -124,4 +137,7 @@ Por outro lado, o Pycaret é um recurso muito interessante para cientistas de da
 
 Como perspectiva futura pretendemos aprofundar duas questões, a primeira esta relacionada a estratégias de balanceamento de um dataset tão desbalanceado. Uma alternativa será pela seleção de dados que estão balanceados em alguma feature, isto provavelmente irá diminuir muito o conjunto de dados, porém o dataset deste trabalho é relativamente grande, logo o resultado por dar um conjunto bom para treinar. Outra alternativa seria de remover aleatória mente os dados da classe maior (zero) até ficar do mesmo tamanho da classe menor (um). Ainda, poderia fazer um script para pegar a classe maior (zero) e dividir tantas vezes até todas divisões ficarem do tamanho da classe menor (um) e então treinar todas divisões com o mesmo conjunto da classe menor (um), por fim fazer um laço que pegue o conjunto da  classe menor (um) e insira junto da “n” divisão da classe maior (zero) e então para  cada novo “n” conjunto (agora  balanceados) faça um ML, ao final, printar a média das métricas do treinamento ( acurácia, F-1, ROC) e plotar uma curva do resultado individual de cada novo conjunto. 
 A segunda questão envolve em aprimorar os recursos computacionais para rodar modelos de aprendizagem que não são convencionais ainda na plataforma do SAGEMAKER.  Esta questão é importante porque envolve em utilizar diferentes instâncias (cada uma ao seu valor e poder computacional) para resolver os problemas de Machine learning na nuvem de forma mais eficiente. 
+
+
+O melhor resultado encontrado foi do XGBoost, está modelagem é bastante usada para sistemas desbalanceados, que foi i nosso caso. Os resultados das aprendizagens podem ser melhoradas a partir de estratégias de balanceamento do data frame, como selecionar uma feature no qual sua comparação com TARGET seja balanceada, assim devido ao grande tamanho do dataframe, seria possível selecionar o tamanho do conjunto que esteja balanceado e assim fazer o aprendizado neste grupo.  
 
